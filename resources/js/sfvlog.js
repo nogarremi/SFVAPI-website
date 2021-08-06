@@ -38,7 +38,7 @@ function reqHttp(resource){
             }
         }
     };
-    xhttp.open("GET", "https://psynr0j4v5.execute-api.us-east-1.amazonaws.com/prod/"+resource, true);	
+    xhttp.open("GET", "https://sfvlog.api.nogarremi.com/"+resource, true);	
     xhttp.send(null);
 }
 function sortMatches (season = 0, type = 0, my_char = 0, opp = 0, opp_rank = 0, opp_char = 0, result = 0, ){
